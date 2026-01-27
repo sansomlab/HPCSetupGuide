@@ -29,7 +29,7 @@ if [[ -n "$PS1" ]]; then
     #   }
     
     ## SLURM configuration
-    export SLURM_CONF=/run/slurm/conf/slurm.conf
+    # export SLURM_CONF=/run/slurm/conf/slurm.conf # Commenting out as Slurm is configless as of 27.01.2026
     export DRMAA_LIBRARY_PATH=/usr/lib64/libdrmaa.so 
 
     ## Alternative set up for UGE (comment out the two lines above)
